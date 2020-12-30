@@ -19,7 +19,7 @@ function setup() {
 	paperObject=new paper(200,450,40);
 	groundObject=new ground(width/2,670,width,20);
 	//Create a Ground
-	
+	console.log("crumble paper")
 
 	var render = Render.create({
 	  element: document.body,
